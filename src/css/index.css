@@ -6,6 +6,23 @@
   text-align: center;
   bottom: 0; }
 
+form {
+  position: relative; }
+  form #search-datalist {
+    position: absolute;
+    top: 35px;
+    left: 16px;
+    width: 200px;
+    list-style: none;
+    background-color: #f8f8f8; }
+    form #search-datalist li {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+      form #search-datalist li a {
+        color: black; }
+
 .navbar {
   width: 100%; }
   .navbar .container-fluid {
@@ -46,3 +63,20 @@
         cursor: pointer; }
     #article-news li #update {
       color: green; }
+
+#navbar-right {
+  position: relative; }
+  #navbar-right #adminname {
+    display: block;
+    height: 52px;
+    width: 150px;
+    line-height: 52px;
+    position: absolute;
+    top: 0;
+    left: 100%; }
+    #navbar-right #adminname a {
+      display: inline-block;
+      padding-left: 0;
+      padding-right: 8px;
+      text-decoration: underline;
+      color: blue; }
